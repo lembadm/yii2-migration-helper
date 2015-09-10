@@ -1,0 +1,22 @@
+{
+    "name": "lembadm/yii2-migration-helper",
+    "description": "Yii2 migration helper",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","migration","helper"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Vizhanov",
+            "email": "lembadm@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "symfony/process": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "lembadm\\migration\\": ""
+        }
+    }
+}
