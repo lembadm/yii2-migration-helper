@@ -70,7 +70,8 @@ $process->wait(function ($type, $buffer) {
 #### Apply module migrations
 All same but need to specify path to module:
 `$migrationPath` Path to migrations (`--migrationPath` argument for `yii migrate/up` command).
-```php $process = Yii::$app->migration->up('<pathToModule>');
+```php
+$process = Yii::$app->migration->up('<pathToModule>');
 ```
 
 ### Downgrades the application by reverting old migrations.
@@ -108,4 +109,6 @@ $process->wait(function ($type, $buffer) {
 #### Apply module migrations
 All same but need to specify path to module:
 `$migrationPath` Path to migrations (`--migrationPath` argument for `yii migrate/up` command).
-```php $process = Yii::$app->migration->downAsync('<pathToModule>'); ```
+```php
+$process = Yii::$app->migration->downAsync('<pathToModule>');
+```
